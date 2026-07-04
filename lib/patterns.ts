@@ -16,7 +16,7 @@ export const PATTERN_CATEGORIES: PatternCategory[] = [
   "Dates & Time",
   "Identifiers",
 ]
-
+ 
 export const PATTERN_PRESETS: PatternPreset[] = [
   {
     id: "email",
