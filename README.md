@@ -89,7 +89,7 @@ Your canvas, blocks, and test input are saved automatically to local storage. Cl
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/visual-regex-builder
+git clone https://github.com/ImMrShervin/visual-regex-builder
 .git
 cd visual-regex-builder
 pnpm install
