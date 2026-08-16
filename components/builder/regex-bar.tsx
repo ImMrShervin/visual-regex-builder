@@ -52,6 +52,8 @@ export function RegexBar({ compiled }: { compiled: CompiledRegex }) {
         <ExportDialog pattern={pattern} ast={ast} />
       </div>
 
+
+      
       {(error !== null || warnings.length > 0) && (
         <div className="flex flex-wrap items-center gap-1.5">
           {error !== null && (
