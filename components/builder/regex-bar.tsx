@@ -10,6 +10,8 @@ import { ExportDialog } from "./export-dialog"
 import { ImportDialog } from "./import-dialog"
 import { PatternLibrary } from "./pattern-library"
 
+
+
 export function RegexBar({ compiled }: { compiled: CompiledRegex }) {
   const [copied, setCopied] = useState(false)
   const { pattern, warnings, error, ast } = compiled
